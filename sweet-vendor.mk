@@ -152,7 +152,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/xiaomi/sweet/proprietary/product/vendor_overlay/30/etc/qdcm_calib_data_xiaomi_k6_38_0c_0a_fhd_dsc_video_dsi_panel.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/qdcm_calib_data_xiaomi_k6_38_0c_0a_fhd_dsc_video_dsi_panel.xml \
     vendor/xiaomi/sweet/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/sweet/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/sweet/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/sweet/proprietary/product/vendor_overlay/30/bin/batterysecret:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/bin/batterysecret \
+    vendor/xiaomi/sweet/proprietary/product/vendor_overlay/30/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/init/init.batterysecret.rc
 
 PRODUCT_PACKAGES += \
     DeviceInfo \
