@@ -2326,6 +2326,7 @@ PRODUCT_PACKAGES += \
     manifest_vendor.xiaomi.hardware.tidaservice \
     manifest_vendor.xiaomi.hardware.vsimapp \
     power \
+    PowerOffAlarm \
     vendor.qti.gnss@4.0-service \
     vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.vibrator.service \
